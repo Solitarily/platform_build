@@ -36,7 +36,7 @@ PRODUCT_PACKAGES += \
     wpa_supplicant.conf
 
 PRODUCT_PACKAGES += \
-	lights.geeb 
+    lights.geeb 
 
 PRODUCT_PACKAGES += \
     charger_res_images

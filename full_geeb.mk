@@ -33,10 +33,6 @@ PRODUCT_COPY_FILES := \
 PRODUCT_COPY_FILES += \
     device/lge/geeb/bootanimation.zip:system/media/bootanimation.zip
 
-# init.d support
-PRODUCT_COPY_FILES += \
-    device/lge/geeb/sysinit:system/bin/sysinit
-
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
